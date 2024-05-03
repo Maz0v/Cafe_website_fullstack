@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import About from '../components/About'
 import Footer from '../components/Footer'
-import Contact from '../components/Contact'
 
-function Contactus() {
+function Aboutus() {
   return (
     <>
       <Navbar />
       <div className='py-10'>
-        <Contact />
+        <About />
       </div>
       <div className='py-10'>
         <Footer />
@@ -17,4 +17,4 @@ function Contactus() {
   )
 }
 
-export default Contactus
+export default Aboutus

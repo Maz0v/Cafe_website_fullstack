@@ -42,7 +42,7 @@ useEffect(()=>{
                 <a href='/contact'>Contact</a>
             </li>
             <li>
-                <a>About</a>
+                <a href='/about'>About</a>
             </li>
         </>
     )
@@ -51,7 +51,7 @@ useEffect(()=>{
     return (
         <>
             <div className={`w-full md:px-20 px-4 dark:bg-slate-900 dark:text-white fixed top-0 left-0 right-0 z-50
-            ${sticky?"sticky-navbar shadow-md bg-base-200 dark:bg-slate-600 dark:text-white duration-300 transition-all ease-in-out":""
+            ${sticky?"sticky-navbar shadow-md bg-base-200 dark:bg-slate-500 dark:text-white duration-300 transition-all ease-in-out":""
             }`
             }>
                 <div className="navbar">

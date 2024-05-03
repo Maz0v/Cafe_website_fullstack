@@ -5,6 +5,7 @@ import Menus from './menu/Menus'
 import Signup from './components/Signup'
 import Contact from './components/Contact'
 import Contactus from './contact/Contactus'
+import Aboutus from './about/Aboutus'
 
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
         <Route path='/menu' element={<Menus />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/contact" element={<Contactus />} />
-
+        <Route path="/about" element={<Aboutus />} />
       </Routes>
 
     </>
