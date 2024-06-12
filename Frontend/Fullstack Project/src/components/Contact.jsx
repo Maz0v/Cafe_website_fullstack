@@ -17,7 +17,7 @@ function Contact() {
                 <span className='text-3xl font-bold'> Contact Us</span>
                     <div className='space-y-2 mt-4'>
                         <h2>Name</h2>
-                        <input type="text" placeholder="Enter your name" className="input  input-sm w-full max-w-xs "
+                        <input type="text" placeholder="Enter your name" className="input  input-sm w-full max-w-xs text-black"
                             {...register("name", { required: true })}
 
                         />
@@ -25,7 +25,7 @@ function Contact() {
                     <br />
                     <div className='space-y-2'>
                         <h2>Email</h2>
-                        <input type="text" placeholder="Enter your email" className="input  input-sm w-full max-w-xs"
+                        <input type="text" placeholder="Enter your email" className="input  input-sm w-full max-w-xs text-black"
                             {...register("email", { required: true })}
 
                         />
@@ -33,7 +33,7 @@ function Contact() {
                     <br />
                     <div className='space-y-2'>
                         <h2>Message</h2>
-                        <textarea className="textarea" placeholder="Type your Message"
+                        <textarea className="textarea text-black" placeholder="Type your Message"
                             {...register("message", { required: true })}
 
                         ></textarea>

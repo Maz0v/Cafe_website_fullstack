@@ -1,12 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import list from "../../public/list.json"
+import axios from 'axios'
 import Cards from './Cards'
 import { Link } from 'react-router-dom'
+import { get } from 'react-hook-form'
 function Cuisine() {
-    const staterData = list.filter((data) => data.category === "Appetizer")
-    const maincourse = list.filter((data) => data.category === "Main C")
-    const bread = list.filter((data) => data.category === "Rice & Bread")
-    const desert = list.filter((data) => data.category === "Dessert")
+    const [menu, setMenu] = useState([])
+    useEffect(() => {
+        const getMenu = async () => {
+            try {
+                const res = await axios.get("http://localhost:4001/menu")
+                //console.log(res.data)
+                setMenu(res.data)
+            } catch (error) {
+                console.log(error)
+            }
+        }
+        getMenu()
+    }, [])
+
+
+
+    const staterData = menu.filter((data) => data.category === "Appetizer")
+    const maincourse = menu.filter((data) => data.category === "Main C")
+    const bread = menu.filter((data) => data.category === "Rice & Bread")
+    const desert = menu.filter((data) => data.category === "Dessert")
 
     return (
         <>
@@ -59,8 +77,13 @@ function Cuisine() {
                     }
 
                 </div>
+                <div className='py-3 items-center justify-center text-center'>
+                    <Link to='/' >
+                        <button className=' mt-12 bg-yellow-500 text-black px-4 py-2 rounded-md hover:bg-yellow-600 duration-300 '>Back</button>
+                    </Link>
+                </div>
                 <p className='mt-12 mb-10 text-xl'>
-                We value your experience at <span className='text-yellow-600 '>Ov's Cafe</span> and strive to continuously improve our offerings. Your feedback is important to us! Please let us know what you enjoyed and how we can enhance your visit. Whether you have suggestions for new dishes, comments on our service, or just want to share your thoughts, we welcome your input. Feel free to speak with our staff or leave a review online. Thank you for dining with us, and we look forward to serving you again soon!                    </p>
+                    We value your experience at <span className='text-yellow-600 '>Ov's Cafe</span> and strive to continuously improve our offerings. Your feedback is important to us! Please let us know what you enjoyed and how we can enhance your visit. Whether you have suggestions for new dishes, comments on our service, or just want to share your thoughts, we welcome your input. Feel free to speak with our staff or leave a review online. Thank you for dining with us, and we look forward to serving you again soon!                    </p>
             </div>
         </>
     )

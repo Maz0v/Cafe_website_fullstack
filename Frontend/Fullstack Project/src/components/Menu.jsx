@@ -1,15 +1,28 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import list from "../../public/list.json"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import axios from "axios"
 import Slider from "react-slick";
 import Cards from './Cards';
 
 function Menu() {
+    const [menu, setMenu] = useState([])
+    useEffect(() => {
+        const getMenu = async () => {
+            try {
+                const res = await axios.get("http://localhost:4001/menu")
+               // console.log(res.data)
+                setMenu(res.data)
+            } catch (error) {
+                console.log(error)
+            }
+        }
+        getMenu()
+    }, [])
 
-
-    const filteredData = list.filter((data) => data.category === "Cafe")
-    //console.log(filteredData)
+    const filteredData = menu.filter((data) => data.category === "Cafe")
+   // console.log(filteredData)
     var settings = {
         dots: true,
         infinite: false,
@@ -48,7 +61,7 @@ function Menu() {
         <>
             <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
                 <div>
-                    <h1 className="font-semibold text-xl pb-2">Our Cafeteria Foods</h1>
+                    <h1 className="font-bold text-3xl pb-2">Our Cafeteria <span className='text-yellow-600'>Foods</span></h1>
                     <p>Discover a world of flavors and comfort at <span className='text-yellow-700 '>Ov's</span> cafe where every dish tells a story of tradition and taste!</p>
                 </div>
                 

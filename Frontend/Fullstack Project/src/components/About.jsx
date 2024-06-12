@@ -5,8 +5,9 @@ function About() {
     return (
         <>
             <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
-                <div className="flex justify-center items-center">
-                <div className=" "><img src={cafe2} className='w-85 h-85 px-0 md:px-5 ml:0 md:ml-0  mt-12 md:mt-5' alt="" /></div>
+            <div className="order-1 w-full"><img src={cafe2} className='w-85 h-85 px-0 md:px-5 ml:0 md:ml-0  mt-12 md:mt-5' alt="" /></div>
+                <div className="flex justify-center items-center w-full order-2">
+                
                     <div className="space-y-12">
                         <h1 className="text-4xl font-bold">About <span className='text-yellow-500 '>Us...</span></h1>
                         <p className='text-xl font-medium'>

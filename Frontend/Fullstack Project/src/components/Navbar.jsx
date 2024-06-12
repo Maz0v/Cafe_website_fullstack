@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Login from './Login';
+import { useAuth } from '../context/AuthProvider';
+import Logout from './Logout';
+
 
 function Navbar() {
-    const [theme,setTheme]= useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light")
+const [authUser,setAuthUser] = useAuth()    
+const [theme,setTheme]= useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light")
 const element = document.documentElement
 useEffect(()=>{
     if(theme==="dark"){
@@ -51,7 +55,7 @@ useEffect(()=>{
     return (
         <>
             <div className={`w-full md:px-20 px-4 dark:bg-slate-900 dark:text-white fixed top-0 left-0 right-0 z-50
-            ${sticky?"sticky-navbar shadow-md bg-base-200 dark:bg-slate-500 dark:text-white duration-300 transition-all ease-in-out":""
+            ${sticky?"sticky-navbar shadow-md bg-base-200 dark:bg-slate-600 dark:text-white duration-300 transition-all ease-in-out":""
             }`
             }>
                 <div className="navbar">
@@ -64,7 +68,7 @@ useEffect(()=>{
                                 {navItems}
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-2xl font-bold cursor-pointer">Ov's Cafe</a>
+                        <a className="btn btn-ghost text-2xl font-bold cursor-pointer" href='/'>Ov's Cafe</a>
                     </div>
                     <div className='navbar-end space-x-3'>
                         <div className="navbar-center hidden lg:flex">
@@ -90,12 +94,17 @@ useEffect(()=>{
 
                             </label>
                         </div>
-                        <div className="">
+
+                        {
+                            authUser?<Logout/>:
+                            <div className="">
                             <a className="btn bg-black text-white px-4 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
                             onClick={()=>document.getElementById("my_modal_3").showModal()}
                             >Login</a>
                             <Login />
                         </div>
+                        }
+                        
                     </div>
                 </div>
             </div>

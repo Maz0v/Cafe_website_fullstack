@@ -3,7 +3,7 @@
         "id":0,
         "name":"Masala Chai ",
         "title":"A spiced tea blend made with black tea, milk, and aromatic spices.",
-        "price":"₹100",
+        "price":"100",
         "category":"Cafe",
         "image":"https://i.postimg.cc/zv2Ct7hL/chai.jpg"
     },
@@ -11,7 +11,7 @@
         "id":1,
         "name":"Classic Coffee",
         "title":"Freshly brewed coffee with a rich aroma and robust flavor.",
-        "price":"₹120",
+        "price":"120",
         "category":"Cafe",
         "image":"https://i.postimg.cc/zBKDPGRT/coffee.jpg"
     },
@@ -19,7 +19,7 @@
         "id":2,
         "name":"Cold Coffee",
         "title":"Chilled coffee blended with milk and ice, topped with whipped cream.",
-        "price":"₹150",
+        "price":"150",
         "category":"Cafe",
         "image":"https://i.postimg.cc/25dXcpSV/cold-coffee.jpg"
     },
@@ -27,7 +27,7 @@
         "id":3,
         "name":"Fruit Shake",
         "title":"Smooth, creamy shake made with fresh seasonal fruits and milk.",
-        "price":"₹180",
+        "price":"180",
         "category":"Cafe",
         "image":"https://i.postimg.cc/rpTfthNc/high-angle-milkshake-glass-with-strawberry-peaches.jpg"
     },
@@ -35,7 +35,7 @@
         "id":4,
         "name":"Cold Drinks",
         "title":"Variety of soft drinks and sodas available like pepsi ,thumbsUp ,sprite etc.",
-        "price":"₹60",
+        "price":"60",
         "category":"Cafe",
         "image":"https://i.postimg.cc/T1B92Q3z/cold-drink.jpg"
     },
@@ -43,7 +43,7 @@
         "id":5,
         "name":"Pizza (Veg)",
         "title":"Thin crust pizza topped with cheese and fresh vegetables.",
-        "price":"₹350",
+        "price":"350",
         "category":"Cafe",
         "image":"https://i.postimg.cc/9XsKQYKX/top-view-delicious-pizza-concept.jpg"
     },
@@ -51,7 +51,7 @@
         "id":6,
         "name":"Pizza (Non-Veg)",
         "title":"Thin crust pizza topped with cheese and a variety of meats.",
-        "price":"₹400",
+        "price":"400",
         "category":"Cafe",
         "image":"https://i.postimg.cc/YSSb3vZy/top-view-pizza-with-chopped-vegetables-mushrooms-sausages-sliced.jpg"
     },
@@ -59,7 +59,7 @@
         "id":7,
         "name":"Veg Burger",
         "title":"Grilled vegetable patty served in a soft bun with fresh lettuce, tomato, and sauces.",
-        "price":"₹120",
+        "price":"120",
         "category":"Cafe",
         "image":"https://i.postimg.cc/D01gZL4m/v-burger.jpg"
     },
@@ -67,7 +67,7 @@
         "id":8,
         "name":"Chicken Burger",
         "title":"Grilled chicken patty served in a soft bun with fresh lettuce, tomato, and sauces.",
-        "price":"₹150",
+        "price":"150",
         "category":"Cafe",
         "image":"https://i.postimg.cc/BQGpzYRF/n-burger.jpg"
     },
@@ -75,7 +75,7 @@
         "id":9,
         "name":"Vegetable Sandwich",
         "title":"Fresh vegetables, cheese, and sauces sandwiched between slices of toasted bread.",
-        "price":"₹100",
+        "price":"100",
         "category":"Cafe",
         "image":"https://i.postimg.cc/sxJhqcZP/v-sandwich.jpg"
     },
@@ -83,7 +83,7 @@
         "id":10,
         "name":"Chicken Sandwich",
         "title":"Grilled chicken, vegetables, and sauces sandwiched between slices of toasted bread.",
-        "price":"₹130",
+        "price":"130",
         "category":"Cafe",
         "image":"https://i.postimg.cc/MZ0VnWrc/c-sandwich.jpg"
     },
@@ -91,7 +91,7 @@
         "id":11,
         "name":"Veg Pakoda",
         "title":"Assorted deep-fried fritters made with vegetables, paneer and chickpea flour.",
-        "price":"₹150",
+        "price":"150",
         "category":"Cafe",
         "image":"https://i.postimg.cc/GhHLZKYc/v-pakoda.jpg"
     },
@@ -99,7 +99,7 @@
         "id":12,
         "name":"Chicken Pakoda",
         "title":"Assorted deep-fried fritters made with chicken, egg and chickpea flour.",
-        "price":"₹180",
+        "price":"180",
         "category":"Cafe",
         "image":"https://i.postimg.cc/fWXnXPxS/chicken-pakoda.jpg"
     },
@@ -107,7 +107,7 @@
         "id":13,
         "name":"Beguni",
         "title":"Sliced eggplant coated in a spiced chickpea batter and deep-fried.",
-        "price":"₹150",
+        "price":"150",
         "category":"Appetizer",
         "image":"https://i.postimg.cc/mr0kTkbf/beguni.jpg"
     },
@@ -115,7 +115,7 @@
         "id":14,
         "name":"Puchka",
         "title":"Crispy hollow puris filled with tangy tamarind water, potatoes, and spices.",
-        "price":"₹170",
+        "price":"170",
         "category":"Appetizer",
         "image":"https://i.postimg.cc/Kz2b9MGz/Fuchka-3.jpg"
     },
@@ -123,7 +123,7 @@
         "id":15,
         "name":"Aloo Chop",
         "title":"Spiced mashed potato croquettes coated in gram flour and deep-fried.",
-        "price":"₹120",
+        "price":"120",
         "category":"Appetizer",
         "image":"https://i.postimg.cc/9fPKQN2m/chop.jpg"
     },
@@ -131,7 +131,7 @@
         "id":16,
         "name":"Cutlet",
         "title":"Assorted deep-fried fritters made with chicken/fish/veggies.",
-        "price":"₹180",
+        "price":"180",
         "category":"Appetizer",
         "image":"https://i.postimg.cc/rFvPCLFy/cutlet.jpg"
     },
@@ -139,7 +139,7 @@
         "id":17,
         "name":"Kosha Mangsho",
         "title":"A rich, slow-cooked mutton curry in a spicy, flavorful sauce.",
-        "price":"₹650",
+        "price":"650",
         "category":"Main C",
         "image":"https://i.postimg.cc/28MSQ3Zq/devshri-chatterji20180128134028494.jpg"
     },
@@ -147,7 +147,7 @@
         "id":18,
         "name":"Malai Curry",
         "title":"Prawns cooked in a creamy coconut milk and infused curry.",
-        "price":"₹750",
+        "price":"750",
         "category":"Main C",
         "image":"https://i.postimg.cc/BnfGZFFC/Golda-Chingri-Malaikari-2.jpg"
     },
@@ -155,7 +155,7 @@
         "id":19,
         "name":"Shorshe Ilish ",
         "title":"Hilsa fish marinated in a mustard paste and steamed .",
-        "price":"₹850",
+        "price":"850",
         "category":"Main C",
         "image":"https://i.postimg.cc/MptxsTcb/PROD-Id-1978-hilsa-seafood-bengali-banner-1617809034420-thumb-1200.jpg"
     },
@@ -163,7 +163,7 @@
         "id":20,
         "name":"Aloo Posto",
         "title":"Potatoes cooked with poppy seeds, creating a dish.",
-        "price":"₹400",
+        "price":"400",
         "category":"Main C",
         "image":"https://i.postimg.cc/wTHSSzYW/62a95d13f6580d0ad7af7067-Alu-Posto-Hero-16-9.jpg"
     },
@@ -171,7 +171,7 @@
         "id":21,
         "name":"Khichuri",
         "title":"A comforting mix of rice, lentils, and vegetables cooked with spices and served hot.",
-        "price":"₹300",
+        "price":"300",
         "category":"Rice & Bread",
         "image":"https://i.postimg.cc/QNRptNdb/Bengali-Bhuna-Khichuri-Recipe-debjanir-rannaghar.jpg"
     },
@@ -179,7 +179,7 @@
         "id":22,
         "name":"Luchi",
         "title":"Fluffy, deep-fried flatbread that pairs perfectly with a variety of curries and dishes.",
-        "price":"₹60 (per piece)",
+        "price":"60 (per piece)",
         "category":"Rice & Bread",
         "image":"https://i.postimg.cc/JzRHDsVb/Luchi.jpg"
     },
@@ -187,7 +187,7 @@
         "id":23,
         "name":"Misti Pulao",
         "title":"Aromatic rice cooked with fragrant spices and a touch of sweetness.",
-        "price":"₹350",
+        "price":"350",
         "category":"Rice & Bread",
         "image":"https://i.postimg.cc/RZCqC2Kd/Basanti-Pulao-1.jpg"
     },
@@ -195,7 +195,7 @@
         "id":24,
         "name":"Steam Rice",
         "title":"Aromatic long grain Basmati rice cooked in plain water good with kosha.",
-        "price":"₹200",
+        "price":"200",
         "category":"Rice & Bread",
         "image":"https://i.postimg.cc/RZ89rYRN/instant-pot-basmati-rice.jpg"
     },
@@ -203,7 +203,7 @@
         "id":25,
         "name":"Rasgulla",
         "title":"Soft, spongy cheese balls soaked in a sweet syrup.",
-        "price":"₹120",
+        "price":"120",
         "category":"Dessert",
         "image":"https://i.postimg.cc/XJLzWGbQ/best-rosogolla-kolkata-2.jpg"
     },
@@ -211,7 +211,7 @@
         "id":26,
         "name":"Pantua",
         "title":"Soft flour balls fried and soaked in a sweet syrup.",
-        "price":"₹130",
+        "price":"130",
         "category":"Dessert",
         "image":"https://i.postimg.cc/qRJ11J3n/priyanka-chakroborty20180412144112721.jpg"
     },
@@ -219,7 +219,7 @@
         "id":27,
         "name":"Mishti Doi",
         "title":"Creamy, sweet yogurt with a hint of caramel flavor.",
-        "price":"₹150",
+        "price":"150",
         "category":"Dessert",
         "image":"https://i.postimg.cc/KjdrhxR0/Mishti-Doi-square-e1523890989103.jpg"
     },
@@ -227,7 +227,7 @@
         "id":28,
         "name":"Sandesh",
         "title":"A Bengali sweet made from paneer and flavor.",
-        "price":"₹120",
+        "price":"120",
         "category":"Dessert",
         "image":"https://i.postimg.cc/bYGBWv5H/Aata-Sandesh-1-600x600-500x500.jpg"
     }
